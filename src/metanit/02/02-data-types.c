@@ -319,8 +319,8 @@ int main(void)
     double double1 = -DBL_MAX;
     double double2 = DBL_MAX;
 
-    printf("double1: %f.\n", double1);
-    printf("double2: %f.\n\n", double2);
+    printf("double1: %lf.\n", double1);
+    printf("double2: %lf.\n\n", double2);
 
     /*
     
@@ -396,7 +396,7 @@ int main(void)
 
     long long sizeof_sizeof = sizeof sizeof(char);
     printf(
-        "sizeof sizeof(char): %lld bytes.\n\n",
+        "sizeof sizeof(char): %lld bytes.\n",
         sizeof_sizeof
     );
 
